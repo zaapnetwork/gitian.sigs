@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    359aa71260768a7def4ce2f28b8bf1602541257486002ce7225754b248ec61ef  src/zaapcore-1.0.0.tar.gz
-    737aa2f0f79aa7a3bff358e12a426c132a1975ca05ba2f4d39f2e0642a39d317  zaapcore-1.0.0-win-unsigned.tar.gz
-    71d12b59702a4dc6ee8148f6dcfaf0ccb3e83080cddbb22b507674143423e020  zaapcore-1.0.0-win32-debug.zip
-    0ca821f0a92de41838cc43382ea56bed2b4cfd22e53a69d1aba3aa0e13c6ba8c  zaapcore-1.0.0-win32-setup-unsigned.exe
-    fe5a7718ff004099e7e6cd6b2174cdbc188d4c541054ef1da57e2097ed182ac8  zaapcore-1.0.0-win32.zip
-    0a1d9a8d96021caa03d9a1020e238186d39ec0a7fb517cdcf82bd36939c2bd23  zaapcore-1.0.0-win64-debug.zip
-    288fbb09a00726489e62219b267eb295b10d64c2aadbe51263a97b90037f1f6d  zaapcore-1.0.0-win64-setup-unsigned.exe
-    ba2afc25d65143ef6e98f7bb9b19edbe13c0ce117ac56b112b759c91a7a8c55a  zaapcore-1.0.0-win64.zip
+    debfa70a0cdedfa12667cfadeed3d6b71ddf5eaa8bb767519c10f120b07e83a5  src/zaapcore-1.0.0.tar.gz
+    793edca32ea713dffa8b1fb104f8eb59f213ab1d7db95ef6d0ffe61693dda0de  zaapcore-1.0.0-win-unsigned.tar.gz
+    fafb2678c502747da253741f42412ff94069ff892ed94a6193a14cebc5d77b9e  zaapcore-1.0.0-win32-debug.zip
+    e90035117cf85d3f529568c562d6878b837695a9c6b131c628a0acca4db8fc67  zaapcore-1.0.0-win32-setup-unsigned.exe
+    760bf8cb66ca062283ca42fe392dd52cfec11eea1c11fb88d931b775c0f16cee  zaapcore-1.0.0-win32.zip
+    87c9cd8175503d96f89ca13841bcc362aa231163a23292cf3167faced0f4aa09  zaapcore-1.0.0-win64-debug.zip
+    f256365bd460ef7d846ff620258e5ed4f276b60a2d589e3ab2533a5832365c6b  zaapcore-1.0.0-win64-setup-unsigned.exe
+    8ae9e7921a49e99df8af60a181107ef55d0f9b6500c91edd8a6a85377338449c  zaapcore-1.0.0-win64.zip
 - in_manifest: |-
     c3c601e0b86a2f00cab957d8b497949b5d74019d34c6382b998bab8362688740  zaap-win-1.0.0-desc.yml
-    git:e74df5a8c92a087032d4d365f0f9b70e9afabc78 zaap
+    git:07c7373e5b52aee262d66c7d7b457dad7f1d4785 zaap
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -326,7 +326,7 @@
       edd482e586af852b92a1a26c0141fd4dd8959a0e59ce414f8a3ce360d7c4ef36  libsqlite3-0_3.8.2-1ubuntu2_amd64.deb
       0b5411e1a24c209d1dde53394714d01d6d67e61d8fc7c7e52df009045691dc31  libss2_1.42.9-3ubuntu1.3_amd64.deb
       d16fb7a71f3fc3f5c422e36251f113fc6d8e546f02366e6d9a2dc15a5a9be66a  libss2_1.42.9-3ubuntu1_amd64.deb
-      c197679de5654dfc7c6f81495a8b2a4b7a691662ab54af945dc474150d726abf  libssl1.0.0_1.0.1f-1ubuntu2.24_amd64.deb
+      9b97be921a438627ec17e0d23d7d52ad35915c5b66f9b119814d4719b2137868  libssl1.0.0_1.0.1f-1ubuntu2.25_amd64.deb
       000043f7e6da7992c5a78160e3c49bf6a811774086dbe2f5a6063ef5a093ff0d  libssl1.0.0_1.0.1f-1ubuntu2_amd64.deb
       5e3cd1641bee44fe7f6e0b3a7104e15edfd65e350bb9e6e46480e4e29eb80f18  libstdc++-4.8-dev_4.8.2-19ubuntu1_amd64.deb
       ac8a577e160195f8788a7338b67fb56708094178f2094e1c3468299247e893ea  libstdc++-4.8-dev_4.8.4-2ubuntu1~14.04.4_amd64.deb
@@ -346,7 +346,7 @@
       1ec393fa9648ef3230da120d0cbbe6df5d553a81abca80499e2173f3872d80a4  libtool_2.4.2-1.7ubuntu1_amd64.deb
       67d3dab9fae2e63fd2c9df57d2586f661817ddfae4691bd85e48039100555b7b  libtsan0_4.8.2-19ubuntu1_amd64.deb
       791dc5a80aa6be0a0412a1e5a777739d0f2e8f246ac4d67f69311fa403fee1fb  libtsan0_4.8.4-2ubuntu1~14.04.4_amd64.deb
-      b12c58adef9f6132678cd96ccd6943c07604758c54b31f575327c6c986faa27a  libudev1_204-5ubuntu20.26_amd64.deb
+      d30bc8aa7e2212d87ea4c4107a3082b205aa3289561938e62899681f6e90760a  libudev1_204-5ubuntu20.28_amd64.deb
       e72496a0ad6e27e8e8ca1797680786d81490058f09b1dc200e56839930e695e4  libudev1_204-5ubuntu20_amd64.deb
       2e55141f8f7104bac01b9afca2ca20fae3253fe9b0339da8e33ede90354f40cf  libusb-0.1-4_2%3a0.1.12-23.3ubuntu1_amd64.deb
       bb42b2a96741b182ff97d4d708131787e4ee242eca03a04667d4955ea71901de  libustr-1.0-1_1.0.4-3ubuntu2_amd64.deb
@@ -355,7 +355,7 @@
       9f75129e147d1d082119f44863e2a4d80224a4e74657c1fd8ad9c42b9a1e5ec1  libwind0-heimdal_1.6~git20131207+dfsg-1ubuntu1.2_amd64.deb
       c2883d497b2acb71c63ca6023bd932a33c1d6c1f5ac38136d9a8dc3d14171b6d  libwind0-heimdal_1.6~git20131207+dfsg-1ubuntu1_amd64.deb
       5af94dbfbf9d040c3193f31fff178b4615f68915e2ae6fe8725af05bbb58c433  libxtables10_1.4.21-1ubuntu1_amd64.deb
-      a0803b73db099df5b327d2d900bea61ac23d0be39922da82ebded0a615513524  linux-libc-dev_3.13.0-144.193_amd64.deb
+      8806891b9f371148fd1437ae215d28844649428c705df754cc5fc06f5c7b2a6e  linux-libc-dev_3.13.0-145.194_amd64.deb
       1a5d88e47eaeb28456e11449fd42244e7af7ccfc9d12a36ede2afb94d19f37d7  linux-libc-dev_3.13.0-24.46_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       d78a27a94732ed1109754b72c4f1aa0d6fa81e595a18d62ef64fb7c6939f0871  locales_2.13+git20120306-12_all.deb
@@ -397,7 +397,7 @@
       19550390ff3bd7f5ba0e49527437d06f7082bc4246bc0af96ba5e096ad10c461  nsis_2.46-7_amd64.deb
       8c1a0a507455f2f819b8874b9c2702df9544829259bd437cb8f7cab311047f9a  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.12_amd64.deb
       d3870e5e0fc0599ce330436566b82449db07aa82fe3ce4a653130ccbb5847a85  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2_amd64.deb
-      dd5341354edfafea04b0bdd02346244c50c976d83ecd5d82ef7572c3806e87b8  openssl_1.0.1f-1ubuntu2.24_amd64.deb
+      5ac6adbcbf8c6fa17a3949b7970a16c0a8a3baaa02d70fbdc5ed780a06a33d64  openssl_1.0.1f-1ubuntu2.25_amd64.deb
       5e62317b9e984874c9ba8f8f7409d91957a3f88006f2f38c17560099f349e230  passwd_1%3a4.1.5.1-1ubuntu9.5_amd64.deb
       2c03f439990da1d02e5478c5261de7b5ee6de68052f99ca74df114ad7c135bae  passwd_1%3a4.1.5.1-1ubuntu9_amd64.deb
       a99d2cfac18163722a394c8d35909c1a94f90d12206fa4c0489042bbe514c3f8  patch_2.7.1-4_amd64.deb
@@ -451,7 +451,7 @@
       315a58b14eec1e9252b2a2e294f2a4be1ccd043adb58bf5b7f56a538843ed504  ubuntu-keyring_2012.05.19_all.deb
       9a65bc091e3a18d604ccb93bd6347f02b7b908feb00f957b0085afcaa91f5453  ubuntu-minimal_1.325_amd64.deb
       6a540d4b23468eaca26a285940c16f19454af7af85de3a903f3118775a95a577  ucf_3.0027+nmu1_all.deb
-      b4c4389873f2298b9598d203495862977a817bba5b889a83b3d4c594dbd28478  udev_204-5ubuntu20.26_amd64.deb
+      1208323766469328f09d10a6d151d0e9b996036efa02054735ef537cbaa61e01  udev_204-5ubuntu20.28_amd64.deb
       af6189dc2f3d97e91e38497ade4120be49377eb4a64d520d75df024920580dd6  udev_204-5ubuntu20_amd64.deb
       8e279021b38f3d5ac06d47437334d540b2a3c9f1abb030fdcdfcf0b01dac4c91  upstart_1.12.1-0ubuntu4.2_amd64.deb
       f4a58199d17cf3375bbfc755a2e47217b597751538929c0c7bf9ed2d0ed68a69  upstart_1.12.1-0ubuntu4_amd64.deb
