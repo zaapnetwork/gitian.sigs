@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    debfa70a0cdedfa12667cfadeed3d6b71ddf5eaa8bb767519c10f120b07e83a5  src/zaapcore-1.0.0.tar.gz
-    793edca32ea713dffa8b1fb104f8eb59f213ab1d7db95ef6d0ffe61693dda0de  zaapcore-1.0.0-win-unsigned.tar.gz
-    fafb2678c502747da253741f42412ff94069ff892ed94a6193a14cebc5d77b9e  zaapcore-1.0.0-win32-debug.zip
-    e90035117cf85d3f529568c562d6878b837695a9c6b131c628a0acca4db8fc67  zaapcore-1.0.0-win32-setup-unsigned.exe
-    760bf8cb66ca062283ca42fe392dd52cfec11eea1c11fb88d931b775c0f16cee  zaapcore-1.0.0-win32.zip
-    87c9cd8175503d96f89ca13841bcc362aa231163a23292cf3167faced0f4aa09  zaapcore-1.0.0-win64-debug.zip
-    f256365bd460ef7d846ff620258e5ed4f276b60a2d589e3ab2533a5832365c6b  zaapcore-1.0.0-win64-setup-unsigned.exe
-    8ae9e7921a49e99df8af60a181107ef55d0f9b6500c91edd8a6a85377338449c  zaapcore-1.0.0-win64.zip
+    fd79097629df79872594540e63ab401e146c1411f86bfc4d8e8a64f1085cd553  src/zaapcore-1.0.0.tar.gz
+    7c898b6db9b7f29c263179ea3d4fd33ae7f01218e5b6ec10e7960c58b950153f  zaapcore-1.0.0-win-unsigned.tar.gz
+    e6a8d95bb16a61f190aa602b6a987e8cd37169f745d9bb13930ee075c83a19fb  zaapcore-1.0.0-win32-debug.zip
+    a89785b97901c09547013d5532f07640221506efbc474d06f758abab908cc333  zaapcore-1.0.0-win32-setup-unsigned.exe
+    26aa81d9f0990f0109b823002496256346769ae05816ee87f0a95f529b33d310  zaapcore-1.0.0-win32.zip
+    9e45a5f51fe3d12649c6087d74a7f5b280ecc59845be564a9deb2bad9d692794  zaapcore-1.0.0-win64-debug.zip
+    2e2ccecc00ff9a3733eb684900fa5062009a8785c6a7bcdc11fe6ba7d24fb88f  zaapcore-1.0.0-win64-setup-unsigned.exe
+    810b9f5312396bac6fbcf0a39215ffc2306b358fa615f314d016966749269bcc  zaapcore-1.0.0-win64.zip
 - in_manifest: |-
     c3c601e0b86a2f00cab957d8b497949b5d74019d34c6382b998bab8362688740  zaap-win-1.0.0-desc.yml
-    git:07c7373e5b52aee262d66c7d7b457dad7f1d4785 zaap
+    git:2a3c10836951a2177fa0e27dea655c9d2416c873 zaap
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
